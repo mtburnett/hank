@@ -20,7 +20,7 @@ class Square {
   }
 }
 
-export default class Cube extends Polygon {
+export default class Cube extends Square {
   constructor(width = 1, height = 1, depth = 1) {
     super();
     this.width = width;

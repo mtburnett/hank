@@ -53,8 +53,8 @@ var Square = function () {
   return Square;
 }();
 
-var Cube = function (_Polygon) {
-  _inherits(Cube, _Polygon);
+var Cube = function (_Square) {
+  _inherits(Cube, _Square);
 
   function Cube() {
     var width = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
@@ -84,6 +84,6 @@ var Cube = function (_Polygon) {
   }]);
 
   return Cube;
-}(Polygon);
+}(Square);
 
 exports.default = Cube;

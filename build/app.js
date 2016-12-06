@@ -1,12 +1,12 @@
 'use strict';
 
-var _polygon = require('./polygon');
+var _cube = require('./cube');
 
-var _polygon2 = _interopRequireDefault(_polygon);
+var _cube2 = _interopRequireDefault(_cube);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var myCube = new _polygon2.default(4, 4, 4);
+var myCube = new _cube2.default(4, 4, 4);
 
 myCube.setName('Hank the cube');
 

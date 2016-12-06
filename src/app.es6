@@ -1,4 +1,4 @@
-import Cube from './polygon';
+import Cube from './cube';
 
 let myCube = new Cube(4, 4, 4);
 
